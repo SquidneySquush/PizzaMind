@@ -1,20 +1,32 @@
+html, body, ul {
+  background: blue;
+  margin: 0;
+  padding: 0;
+}
+
+
 .App {
+  font-family: sans-serif;
   text-align: center;
+  background-image: url(https://envato-shoebox-0.imgix.net/34f8/45f6-47dc-47cf-8948-bc48dbdc1703/pasta4_b294.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=8f6721c92b0c3b45ad37553312f0832f);
+  position: fized;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Home {
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Contact {
+  color: white;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,9 +36,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {

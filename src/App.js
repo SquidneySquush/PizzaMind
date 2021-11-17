@@ -1,6 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
 
+import React from 'react';
+import {BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom';
+import Quiz from './components/Quiz';
+import Home from './components/Home';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        Pizza Mind 
+      </header>
+      <Router>
+        <Routes>
+
+          <Route path='/' element={<Home/>} />
+          <Route path='/' element={<Quiz/>} />
+        
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+export default App; 
+
+/*
 function App() {
   return (
     <div className="App">
@@ -22,4 +46,5 @@ function App() {
   );
 }
 
-export default App;
+export default App; */
+
