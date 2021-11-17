@@ -2,6 +2,7 @@ import './App.css';
 
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom';
+import NavBar from "./components/NavBar"
 import Quiz from './components/Quiz';
 import Home from './components/Home';
 
@@ -11,6 +12,7 @@ function App() {
       <header className="App-header">
         Pizza Mind 
       </header>
+      </NavBar>
       <Router>
         <Routes>
 
